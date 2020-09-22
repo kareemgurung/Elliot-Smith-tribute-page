@@ -1,0 +1,54 @@
+#title {
+    background-image: url(https://cdn4.pitchfork.com/longform/14/ElliottSmith_CoverPhoto.jpg);
+    height: 500px;
+    margin: auto;
+    color: #f5f1f1;
+}
+
+#main {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-div {
+    padding: 2em 5em 2em 1.5em;
+}
+
+#tribute-info {
+    background-color: #cococo;
+    margin: 100px 150px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 100px auto 20px auto;
+}
+
+#img-caption {
+    font-size: 20px;
+}
+
+.quote-section {
+    margin: 50px 200px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #title {
+        background-position: center;
+        background-size: cover;
+        transition: ease all .5s
+    }
+
+    #tribute-info {
+        margin: auto;
+    }
+
+    .quote-section {
+        margin: auto;
+    }
+}
